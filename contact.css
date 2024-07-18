@@ -1,5 +1,5 @@
 
-* {
+*{
 padding : 0;
 margin : 0;
 color : #fff;
@@ -9,7 +9,7 @@ border : none;
 }
 body {
 font-family : nexa;
-background-image : url(./img/volcano-8510613_1280.jpg);
+background-image: url(./img/volcano-8510613_1280.jpg);
 width : 100%;
 height : 100vh;
 background-size : 100% 110vh;
@@ -101,11 +101,11 @@ display : flex;
 min-height : 110vh;
 }
 .content section {
-margin-top : 8vh;
-margin-left : 20vh;
+margin-top : 0;
+margin-left : 0;
 }
 .content-form {
-margin-top : 7rem;
+margin-top : 4vh;
 }
 section i {
 border-radius : 50%;
@@ -168,7 +168,7 @@ background-color : dodgerblue;
 border : dodgerblue solid 2px;
 font-size : 18px;
 width : 50%;
-height : 40px;
+height : 50px;
 margin-top : -5px;
 }
 .form .contact-form input[type="submit"]:hover {
