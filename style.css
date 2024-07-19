@@ -161,3 +161,40 @@ header .nav li:last-child{
         min-height: 600px;
     }
 }
+
+.footer {
+    background-color: #000;
+    position:inherit;
+    padding: 0;
+}
+.social{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social a{
+    font-size: 20px;
+	 		display: inline-block;
+	 		color: whitesmoke;
+	 		width: 25px;
+	 		padding: 10px;
+	 		border-radius: 8px;
+}
+
+.social a:hover{
+    background-color: skyblue;
+}
+
+.footer  ul li{
+    display: inline;
+    padding: 10px 20px;
+    color: whitesmoke;
+    margin: 0;
+}
+
+.author{
+    text-align: left;
+	 		padding-bottom: 30px;
+	 		color: whitesmoke;
+}
