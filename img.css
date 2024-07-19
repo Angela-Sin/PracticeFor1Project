@@ -1,0 +1,142 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: 'Poppins';
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px
+}
+
+@media (max-width: 1000px){
+    section{
+        padding: 100px 50px;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    section{
+        padding: 125px 30px;
+    }
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 35px 100px 0;
+}
+
+header a{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+header h2{
+    text-transform: uppercase;
+}
+
+header .nav{
+    display: flex;
+}
+
+header .nav li{
+    margin: 0 15px;
+}
+
+header .nav li:first-child{
+    margin-left: 0;
+}
+
+header .nav li:last-child{
+    margin-right: 0;
+}
+
+@media (max-width:1000px){
+    header{
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    header h2{
+        margin-bottom: 15px;
+    }
+    header .nav li{
+        margin: 0 7px;
+    }
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 40px 20px 0 20px;
+    }
+
+    .container .heading{
+        width: 50%;
+        padding-bottom: 50px;
+
+    }
+
+    .container .heading h3{
+        font-size: 3em;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #000;
+    }
+
+    .container .heading h3 span{
+        font-weight: 100;
+    }
+
+    .container .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container .box .dream{
+        display: flex;
+        flex-direction: column;
+        width: 32.5%;
+    }
+
+    .container .box .dream img{
+        width: 100%;
+        padding-bottom: 15px;
+        border-radius: 5px;
+    }
