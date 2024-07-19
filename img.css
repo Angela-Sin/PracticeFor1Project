@@ -113,16 +113,7 @@ header .nav li:last-child{
 
     }
 
-    .container .heading h3{
-        font-size: 3em;
-        font-weight: bolder;
-        padding-bottom: 10px;
-        border-bottom: 3px solid #000;
-    }
-
-    .container .heading h3{
-        font-weight: 100;
-    }
+    
 
     .container .box{
         display: flex;
