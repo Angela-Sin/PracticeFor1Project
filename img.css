@@ -142,12 +142,12 @@ header .nav li:last-child{
         border-radius: 5px;
     }
 
-@media (max-width: 769px){
+@media (max-width: 576px){
     .container .box{
         flex-direction: column;
     }
-
     .container .box .dream{
         width: 100%;
     }
 }
+    
