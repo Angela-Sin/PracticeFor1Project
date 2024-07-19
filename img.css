@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Poppins';
+    background-color: #2e293890;
 }
 ul{
     list-style: none;
@@ -140,3 +141,13 @@ header .nav li:last-child{
         padding-bottom: 15px;
         border-radius: 5px;
     }
+
+@media (max-width: 769px){
+    .container .box{
+        flex-direction: column;
+    }
+
+    .container .box .dream{
+        width: 100%;
+    }
+}
