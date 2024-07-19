@@ -1,7 +1,4 @@
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +6,7 @@
 }
 
 body{
-    font-family: nexa;
+    font-family: sans-serif;
     background-color: #3533336a;
 }
 ul{
@@ -147,6 +144,7 @@ header .nav li:last-child{
     border-radius: 5px;
     padding: 8px 16px;
 }
+
 
 
 .footer {

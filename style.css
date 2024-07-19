@@ -1,7 +1,4 @@
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +6,7 @@
 }
 
 body{
-    font-family: nexa;
+    font-family: 'Poppins', sans-serif;
 }
 ul{
     list-style: none;
