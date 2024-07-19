@@ -44,6 +44,7 @@ section{
 
 header{
     position: absolute;
+    background-color: #000;
     top: 0;
     left: 0;
     z-index: 10;
