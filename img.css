@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Poppins';
-    background-color: #2e293890;
+    background-color: #000;
 }
 ul{
     list-style: none;
@@ -120,7 +120,7 @@ header .nav li:last-child{
         border-bottom: 3px solid #000;
     }
 
-    .container .heading h3 span{
+    .container .heading h3{
         font-weight: 100;
     }
 
