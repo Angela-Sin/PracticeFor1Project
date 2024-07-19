@@ -183,7 +183,7 @@ header .nav li:last-child{
 }
 
 .social a:hover{
-    background-color: skyblue;
+    background-color: rgba(5, 20, 26, 0.258);
 }
 
 .footer  ul li{
